@@ -1,6 +1,6 @@
 import { getAllPosts } from "@/lib/posts";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://mi-sitio.com";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://mi-proyecto-seo-ylgm.onrender.com";
 
 export default async function handler(req, res) {
   const today = new Date().toISOString().split("T")[0];

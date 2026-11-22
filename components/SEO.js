@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://mi-sitio.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://mi-proyecto-seo-ylgm.onrender.com";
 const SITE_NAME = "Mi Sitio Optimizado";
 
 export default function SEO({
